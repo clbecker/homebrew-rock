@@ -8,7 +8,7 @@ class RockRuntimePerl518 < Formula
   keg_only 'rock'
 
   def install_local_lib
-    local_lib_version = '1.008023'
+    local_lib_version = '2.000011'
 
     system 'curl', '-LO', "http://www.cpan.org/authors/id/E/ET/ETHER/local-lib-#{local_lib_version}.tar.gz"
     system 'tar', '-xzf', "local-lib-#{local_lib_version}.tar.gz"
